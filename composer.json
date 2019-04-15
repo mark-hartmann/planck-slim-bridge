@@ -1,0 +1,26 @@
+{
+  "name": "hartmann/planck-slim-bridge",
+  "description": "Slim3-bridge for the Planck-DIC",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark Hartmann",
+      "email": "info@mark-hartmann.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hartmann\\PlanckSlimBridge\\": "src\\"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "hartmann/planck": "^2.0",
+    "psr/http-message": "^1.0",
+    "slim/slim": "^3.12"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  }
+}
